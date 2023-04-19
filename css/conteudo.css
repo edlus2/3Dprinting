@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.infor{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+}
+.infor h1{
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+.prod{
+    height: 700px;
+    width: 100%;
+}
+.prod h1{
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.212);
+}
+.fotos{
+    background-color: white;
+    height: 700px;
+    width: 100%;
+}
+.fotos h1{
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+}
+footer{
+    height: 100px;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
