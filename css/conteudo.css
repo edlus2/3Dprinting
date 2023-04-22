@@ -1,40 +1,95 @@
 @charset "UTF-8";
 
-.infor{
+/*configuração da id padmod */
+#patmod{
+    padding: 0px 0px 50px 0px;
     background-color: white;
-    height: 700px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+/*configuração da imagem*/
+.imgfund{
+    max-width: 500px;
+    padding: 20px 0px;
+}
+.imgfund > img{
     width: 100%;
 }
-.infor h1{
+
+/*configuracao do testo e link*/
+.sitsecundario{
+    display: table;
+    align-self:center ;
+    justify-self:center;
+    padding-top: 50px;
+    max-width: 500px;
+}
+.sitsecundario h1{
     text-align: center;
-    padding: 20px;
-    background-color: aqua;
 }
-.prod{
-    height: 700px;
-    width: 100%;
-}
-.prod h1{
-    color: wheat;
+.sitsecundario p{
+    font-size: 0.9em;
+    color: rgb(49, 49, 49);
     text-align: center;
-    padding: 20px;
-    background-color: rgba(0, 255, 255, 0.212);
+    padding: 20px 0px;
 }
-.fotos{
-    background-color: white;
-    height: 700px;
-    width: 100%;
-}
-.fotos h1{
-    text-align: center;
-    padding: 20px;
-    background-color: aqua;
-}
-footer{
-    height: 100px;
-    width: 100%;
-}
-footer p{
-    text-align: center;
+.sitsecundario a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
     color: white;
+    background-color: #000116;
+    margin: auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sitsecundario a:hover{
+    color: white;
+    background-color: #000dff;
+    transition: 1s;
+}
+
+/*imagem de quebra de pagina*/
+.imgquebra{
+    background-color: #000116;
+    width: 100%;
+    position: absolute;
+}
+
+/*configução da pagina de informaçao de equipamento*/
+#infeqp{
+    padding: 100px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inftexto{
+    padding-top: 100px;
+    max-width: 600px;
+    text-align: center;
+}
+.inftexto h2{
+    font-size: 2em;
+}
+.inftexto p{
+    font-size: 1em;
+    padding-top: 50px;
+}
+.imgtan{
+    padding-top: 100px;
+    width: 600px;
+}
+.imgtan img{
+    width: 100%;
+}
+
+/* Configuraçao foto */
+.fotos{
+    height: 500px;
+    width: 100%;
+    background-color: white;
 }
