@@ -10,7 +10,8 @@
 }
 
 /* configuração scroll*/
-[anime-scroll] {
+@media screen and (min-width: 1200px) {
+    [anime-scroll] {
     opacity: 0;
     transition: 0.3s;
 }
@@ -28,11 +29,12 @@
     transform: translate3d(0px, 50px, 0);
 }
 
-
 [anime-scroll].anime{
     opacity: 1;
     transform: translate3d(0px ,0px ,0px);
 }
+}
+
 /*configuração da imagem*/
 .imgfund{
     max-width: 500px;
