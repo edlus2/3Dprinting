@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+/*======= Cores utilizado no site =======
+#131A40
+#273273
+#4E64A6
+#829FD9
+#99B7F9
+*/
+
+
 /*======= Google fonts =======*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -12,7 +21,7 @@
 }
 
 body{
-   background-color: #000116;
+   background-color: #131A40;
 }
 
 /*======= Header navigation bar =======*/
@@ -127,13 +136,13 @@ section{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #282f4e;
+    background: #131A40;
     width: 100%;
     border-radius: 2em;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background: #454f6d;
+    background: #273273;
 }
 
 /*======= Scroll indicator bar =======*/

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Printing</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     
     <!--configuração da barra de menu css-->
     <link rel="stylesheet" href="../css/menu.css">
@@ -12,6 +13,7 @@
 
     <!-- configuração conteudo-->
     <link rel="stylesheet" href="../css/conteudo.css">
+
 </head>
 <body>
     <header>
@@ -35,8 +37,15 @@
 
     <!--configuração java da barra menu-->
     <script src="../js/menu.js"></script>
-    <main>
-        <img class="modlogo" src="../modeloss.png" alt="imagem de modelos">
+
+    <!--configuração do conteudo da pagina-->
+    <main id="modelo">
+        <div>
+            <picture>
+                <source media="(max-width: 850px)" srcset="../modelo/3.1.png" />
+                <img src="../modelo/3.png" alt="" />
+            </picture> 
+        </div>
     </main>
 </body>
 </html>
