@@ -62,13 +62,13 @@
   }
   
   .carousel .one {
-    background-image: url(../img/trono.jpg);
+    background-image: url(../html/img/p.inicial/trono.jpg);
   }
   .carousel .two {
-    background-image: url(../img/abobora.jpg);
+    background-image: url(../html/img/p.inicial/abobora.jpg);
   }
   .carousel .three {
-    background-image: url(../img/voando.jpg);
+    background-image: url(../html/img/p.inicial/voando.jpg);
   }
   #slide-btn-1:checked ~ .one,
   #slide-btn-2:checked ~ .two,

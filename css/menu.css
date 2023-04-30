@@ -21,19 +21,11 @@
 }
 
 body{
-   background-color: #131A40;
+    overflow-x: hidden;
+    background-color: #131A40;
 }
 
 /*======= Header navigation bar =======*/
-#teste1{
-    height: 700px;
-    background-image: url(https://www.oaloo.com.br/wp-content/uploads/2020/06/impress%C3%A3o-3D-4.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: relative;
-}
 header{
     z-index: 999;
     position: fixed;
