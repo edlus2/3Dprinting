@@ -29,18 +29,113 @@ picture img{
     width: 100%;
     background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
 }
+/*======= configuraçao do conteudo =======*/
+section{
+    background-color: white;
+}
+.contato{
+    max-width: 750px; 
+    display: block;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+.contato h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+.contato span{
+    padding-left: 20px;
+}
+h2 i{
+    color: rgb(4, 209, 4);
+    padding: 10px;
+    font-size: 1.5em;
+}
+h2 .email{
+    color: #c22700;
+}
+.formulario{
+    box-shadow: 3px 3px 3px #829FD9;
+    border-radius: 10px;
+    padding: 20px 0;
+    display: block;
+    margin: auto;
+    width: 750px;
+    border:1px solid #99B7F9 ;
+}
+.formulario h2{
+    text-align: center;
+    padding: 20px 0px;
+}
+.text{
+    border-radius: 10px;
+    border: 1px solid #4E64A6;
+    width: 100%;
+    padding: 10px; 
+}
+.form{
+    padding: 10px;
+}
+.botao input{
+    background-color: white;
+    color: #131A40;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+.botao input:hover{
+    background-color: #131A40;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+    .formulario{
+        box-shadow: 3px 3px 3px #829FD9;
+        width:500px;
+        margin: auto;
+        display: block;
+        border: 1px solid #4E64A6;
+        margin-bottom: 30px;}
+}
+@media screen and (max-width: 500px){
+    .formulario{
+        box-shadow: 3px 3px 3px #829FD9;
+        width:300px;
+        margin: auto;
+        display: block;
+        border: 1px solid #4E64A6;
+        margin-bottom: 30px;}
+}
+.mapa{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0px;
+}
+.mapa h2{
+    padding-bottom: 20px;
+}
+.mapa iframe{
+    box-shadow: 3px 3px 3px #829FD9;
+    border: 2px solid #131A40;
+    width: 100%;
+}
 
+/*======= configuraçao da divisao =======*/
 .colorido{
     height: 10px;
     width: 100%;
     background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
 }
-
 /*======= configuraçao footer =======*/
 footer{
     width: 100%;
 }
-
 #footer{
     padding: 50px 0px;
     display: flex;
