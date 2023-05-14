@@ -21,14 +21,6 @@ picture img{
     height: 100vh;
 }
 
-/*======= configuraçao divisao inicial =======*/
-#colorido{
-    margin-top:-7px;
-    height: 10px;
-    width: 100%;
-    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
-}
-
 /*======= configuraçao do conteudo =======*/
 .img-container{
     position: relative;
@@ -104,11 +96,4 @@ picture img{
     .img-container .popup-img img{
         width: 80%;
     }
-}
-
-/*======= configuraçao da divisao final =======*/
-.colorido{
-    height: 10px;
-    width: 100%;
-    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
 }

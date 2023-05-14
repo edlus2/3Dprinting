@@ -27,14 +27,6 @@ picture img{
     height: 100vh;
 }
 
-/*======= configuraçao da divisao =======*/
-#colorido{
-    margin-top:-7px;
-    height: 10px;
-    width: 100%;
-    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
-}
-
 /*======= configuraçao conteudo da pagina =======*/
 .conteudo{
     max-width: 800px;
@@ -192,11 +184,4 @@ picture img{
         display: block;
         border: 1px solid #4E64A6;
         margin-bottom: 30px;}
-}
-
-/*======= configuraçao da divisao final =======*/
-.colorido{
-    height: 10px;
-    width: 100%;
-    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
 }

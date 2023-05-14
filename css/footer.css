@@ -8,6 +8,21 @@
 #99B7F9
 */
 
+/*======= configuraçao divisao inicial =======*/
+#colorido{
+    margin-top:-7px;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
+}
+
+/*======= configuraçao da divisao final =======*/
+.colorido{
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
+}
+
 /*======= configuraçao footer =======*/
 footer{
     background-color: #131A40;
