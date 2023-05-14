@@ -243,32 +243,3 @@ section{
     width: 100%;
     background-image: linear-gradient(to left,#4E64A6,#829FD9,#99B7F9 );
 }
-
-/*======= configuraçao footer =======*/
-footer{
-    width: 100%;
-}
-#footer{
-    padding: 50px 0px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.footerr img{
-    max-width: 200px;
-}
-.footer{
-    padding: 50px 20px 10px 20px;
-    font-weight: 200;
-    color: white;
-}
-.footer span {
-    font-weight: bold;
-}
-footer .uil:before{
-    font-size: 2em;
-    color:#99B7F9;
-}
-.central{
-    text-align: center;
-}
