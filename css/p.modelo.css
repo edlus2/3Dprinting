@@ -48,7 +48,7 @@ h1{
     text-align: center;
 }
 .catalogo{
-    margin: 7%;
+    margin: 50px;
     color: #131A40;
     text-align: center;
     text-decoration: none;
@@ -120,8 +120,10 @@ h1{
     background-image: url(../html/img/p.modelo/serie2.png);
 }
 .card{
-    width: 240px;
-    height: 360px;
+    flex-direction: column;
+    width: 100%;
+    width: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
