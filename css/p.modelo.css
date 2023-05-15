@@ -162,6 +162,7 @@ picture img{
         background-repeat: no-repeat;
     }
     .anime:hover{
+        transition: 2s;
         color: white;
         font-size: 2em;
         background-image: url(../html/img/p.modelo/anime2.png);
