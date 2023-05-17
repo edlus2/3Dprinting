@@ -59,16 +59,17 @@
 
 /*======= Configuração do conteudo da pagina 1 =======*/
 section{
-    background-color: white;
-    background-image: url(../html/img/p.inicial/img\ fundo\ \ sobre\ nos.avif);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../html/img/p.inicial/fundosobrenos.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: left top;
     background-size: cover;
 }
 #sobrenos{
     display: block;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.075);
+    background-color: rgba(0, 0, 0, 0.080);
 }
 #sobrenos h2{
     color: rgb(0, 0, 0);
