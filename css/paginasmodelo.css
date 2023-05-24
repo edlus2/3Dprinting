@@ -110,7 +110,8 @@ section{
     margin-bottom: 50px;
     box-shadow:5px 5px 12px 0px #131A40;
 } 
-main h1{
+.geral h1{
+    text-transform: uppercase;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -120,6 +121,7 @@ main h1{
     background-image: url(../html/img/p.modelo/p.anime/fundo.jpg);
 }
 .orcdata .tit{
+    color: white;
     background-image: url(../html/img/p.modelo/p.data/fundo.jpg);
 }
 .orcdesenho .tit{
