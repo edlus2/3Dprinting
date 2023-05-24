@@ -36,46 +36,57 @@
             <div class="scroll-indicator-bar"></div>
         </div>
     </header>
-    <main class="anime geral">
-        <h1 id="orcamento">Orçamento</h1>
-        <section>
-            <div class="informacaoeimg">
-                <div>
-                    <h3>informacoes</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, voluptates in sit dolore facere provident vero, consequatur harum, sint minus blanditiis sunt ipsum. Voluptates voluptatibus voluptas quisquam mollitia error odit?</p>
+
+    <main class="orcanime geral">
+        <div class="tit">
+            <h1>Orçamento</h1>
+        </div>
+
+        <section id="orcamento">
+            <div class="infororcamento">
+                <div class="conted">
+                    <h3>All Might</h3>
+                    <p>All Might (オールマイト Ōrumaito), nome civil Toshinori Yagi (八や木ぎ俊とし典のり Yagi Toshinori), é o Herói Profissional que se tornou icônico como o Símbolo da Paz (平和の象徴 Heiwa no Shōchō) e reconhecido como o Herói Número 1.</p>
                 </div>
                 <div>
-                    <a target="_blank" href="aba3d/allmight.html">
+                    <a target="_blank" href="aba3d/allmight.html"> 
                         <img src="../../img/p.modelo/p.anime/allmight.jpg" alt="allmight">
+                        <p>Clique na imagem para ver em 3D</p>
                     </a>
                 </div>
             </div>
-            <div>
+            <div class="formulario">
+                <h2>formulario</h2>
                 <form action="cadastro.php" method="get">
-                    <fieldset>
-                        <legend>formulario</legend>
-                        <label for="inome">Nome:</label>
-                        <input type="text" name="nome" id="inome">
-
-                        <label for="iemail">E-mail:</label>
-                        <input type="email" name="email" id="iemail">
-
+                    <div class="form">
+                        <label for="Nome">Nome</label>
+                        <input type="text" class="text" id="Nome">
+                    </div>
+                    <div class="form">
+                        <label for="Email">E-mail</label>
+                        <input type="email" class="text" id="Email">
+                    </div>
+                    <div class="form">
                         <label for="itel">Telefone</label>
-                        <input type="tel" name="tel" id="itel">
-
+                        <input type="tel" class="text" id="itel">
+                    </div>
+                    <div class="form">
                         <label for="itam">Tamanho:</label>
                         <input type="radio" name="tam" id="itam" value="20">20
                         <input type="radio" name="tam" id="itam" value="25">25
                         <input type="radio" name="tam" id="itam" value="30">30
-
-                        <label for="imensagem">Mensagem:</label>
-                        <input type="text" name="mensagem" id="imensagem">
-                        
+                        <input type="radio" name="tam" id="itam" value="40">40
+                    </div>
+                    <div class="form">
+                        <label for="Mensagem">Mensagem<br></label>
+                        <textarea class="text" id="Mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="botao">
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Limpar">
-                    </fieldset>    
+                    </div>
                 </form>
-            </div>
+            </div> 
         </section>
     </main>
     <!--configuração java scroll-->
