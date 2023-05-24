@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing</title>
+    <link rel="shortcut icon" href="../../img/p.inicial/favicon.ico" type="image/x-icon">
+
+    <!--configuração da barra de menu css-->
+    <link rel="stylesheet" href="../../../css/menu.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--configuração da pagina css-->
+    <link rel="stylesheet" href="../../../css/paginasmodelo.css">
+
+</head>
+
+<body>
+     <!--configuração da barra de menu html-->
+     <header>
+        <div class="nav-bar">
+            <a href="" class="logo"><img src="../../img/p.inicial/logo.png" alt="logo do site" style="height: 90px;"></a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <i class="uil uil-times nav-close-btn"></i>
+                    <a href="../../modelo.html"><i class="uil uil-octagon"></i> Modelos</a>
+                    <a href="../../galeria.html"><i class="uil uil-images"></i> Galeria</a>
+                    <a href="../../contato.html"><i class="uil uil-envelope"></i> Contato </a>
+                    <a href="../../ajuda.html"><i class="uil uil-lightbulb-alt"></i> Ajuda</a>
+                </div>
+            </div>
+            <i class="uil uil-apps nav-menu-btn"></i>
+        </div>
+        <div class="scroll-indicator-container">
+            <div class="scroll-indicator-bar"></div>
+        </div>
+    </header>
+
+    <main class="orcdesenho geral">
+        <div class="tit">
+            <h1>Orçamento</h1>
+        </div>
+
+        <section id="orcamento">
+            <div class="infororcamento">
+                <div class="conted">
+                    <h3>Bender</h3>
+                    <p>Bender é o robô mais maligno da série, mais até que o Papai Noel Robô e o Diabo Robô. Bender nomeou suas mãos “Grabby e Squeezy”, e seus pés copos “Stompy e Smashy”.</p>
+                </div>
+                <div>
+                    <a target="_blank" href="aba3d/Bender.html"> 
+                        <img src="../../img/p.modelo/p.desenho/Bender.png" alt="Bender">
+                        <p>Clique na imagem para ver em 3D</p>
+                    </a>
+                </div>
+            </div>
+            <div class="formulario">
+                <h2>formulario</h2>
+                <form action="cadastro.php" method="get">
+                    <div class="form">
+                        <label for="inome">Personagem</label>
+                        <input type="text" class="text" id="inome" name="teste" value="Bender" disabled="">
+                    </div>
+                    <div class="form">
+                        <label for="Nome">Nome</label>
+                        <input type="text" class="text" id="Nome">
+                    </div>
+                    <div class="form">
+                        <label for="Email">E-mail</label>
+                        <input type="email" class="text" id="Email">
+                    </div>
+                    <div class="form">
+                        <label for="itel">Telefone</label>
+                        <input type="tel" class="text" id="itel">
+                    </div>
+                    <div class="form">
+                        <label for="itam">Tamanho:</label>
+                        <input type="radio" name="tam" id="itam" value="20">20
+                        <input type="radio" name="tam" id="itam" value="25">25
+                        <input type="radio" name="tam" id="itam" value="30">30
+                        <input type="radio" name="tam" id="itam" value="40">40
+                    </div>
+                    <div class="form">
+                        <label for="Mensagem">Mensagem<br></label>
+                        <textarea class="text" id="Mensagem" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="botao">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </form>
+            </div> 
+        </section>
+    </main>
+    <!--configuração java scroll-->
+    <script type="text/javascript" src="../../../js/scroll.js"></script>
+
+    <!--configuração java da barra menu-->
+    <script src="../../../js/menu.js"></script>
+</body>
+
+</html>

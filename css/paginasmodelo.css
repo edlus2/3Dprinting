@@ -111,6 +111,9 @@ section{
     box-shadow:5px 5px 12px 0px #131A40;
 } 
 .geral h1{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 10px;
     text-transform: uppercase;
     position: absolute;
     top: 20%;
@@ -121,19 +124,21 @@ section{
     background-image: url(../html/img/p.modelo/p.anime/fundo.jpg);
 }
 .orcdata .tit{
-    color: white;
     background-image: url(../html/img/p.modelo/p.data/fundo.jpg);
 }
 .orcdesenho .tit{
+    background-position: center center;
     background-image: url(../html/img/p.modelo/p.desenho/fundo.jpg);
 }
 .orcfilme .tit{
     background-image: url(../html/img/p.modelo/p.filme/fundo.jpg);
 }
 .orcgames .tit{
+    background-position: center;
     background-image: url(../html/img/p.modelo/p.game/fundo.png);
 }
 .orcserie .tit{
+    background-position: center;
     background-image: url(../html/img/p.modelo/p.serie/fundo.jpg);
 }
 #orcamento{
@@ -168,7 +173,7 @@ section{
     border-radius: 10px;
     width: 400px;
     height: 410px;
-    background-color: #131a402c;
+    background-color: #829fd942;
     margin: 20px;
 }
 .infororcamento a{
