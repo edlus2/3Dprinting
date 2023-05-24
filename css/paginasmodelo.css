@@ -36,6 +36,8 @@ picture img{
     font: 2em sans-serif;
     text-transform: capitalize;   
 }
+
+@media screen and (min-width: 800px){
 .anime{
     background-image: url(../html/img/p.modelo/p.anime/fundo.jpg);
 }
@@ -54,7 +56,9 @@ picture img{
 .serie{
     background-image: url(../html/img/p.modelo/p.serie/fundo.jpg);
 }
+}
 section{
+    background-color: #829FD9;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -95,4 +99,60 @@ section{
     color: white;
     height: 90px;
     width: 100%;
+}
+
+
+
+/*======= configuraçao pag orcamento =======*/
+.geral{
+    background-color: #829FD9;
+}
+
+.anime #orcamento{
+    background-image: url(../html/img/p.modelo/p.anime/fundo.jpg);
+}
+.data #orcamento{
+    background-image: url(../html/img/p.modelo/p.data/fundo.jpg);
+}
+.desenho #orcamento{
+    background-image: url(../html/img/p.modelo/p.desenho/fundo.jpg);
+}
+.filme #orcamento{
+    background-image: url(../html/img/p.modelo/p.filme/fundo.jpg);
+}
+.games #orcamento{
+    background-image: url(../html/img/p.modelo/p.game/fundo.png);
+}
+.serie #orcamento{
+    background-image: url(../html/img/p.modelo/p.serie/fundo.jpg);
+}
+#orcamento{
+    text-align: center;
+    padding: 25vh
+}
+
+.informacaoeimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.informacaoeimg div{
+    width: 400px;
+    height: 600px;
+}
+.informacaoeimg a img {
+    width: 300px;
+    height: 500px;
+}
+
+
+/*======= configuraçao da pagina 3d =======*/
+
+.pagina3d{
+    overflow: hidden;
+}
+iframe{
+    height: 100vh;
+    width: 100vw;
 }

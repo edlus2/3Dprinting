@@ -10,7 +10,12 @@
     <!--configuração da barra de menu css-->
     <link rel="stylesheet" href="../../../css/menu.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--configuração da pagina css-->
+    <link rel="stylesheet" href="../../../css/paginasmodelo.css">
+
 </head>
+
 <body>
      <!--configuração da barra de menu html-->
      <header>
@@ -31,8 +36,47 @@
             <div class="scroll-indicator-bar"></div>
         </div>
     </header>
-    <main>
-        <a href="aba3d/allmight.html"><img src="../../img/p.modelo/p.anime/allmight.jpg" alt="allmight"></a>
+    <main class="anime geral">
+        <h1 id="orcamento">Orçamento</h1>
+        <section>
+            <div class="informacaoeimg">
+                <div>
+                    <h3>informacoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, voluptates in sit dolore facere provident vero, consequatur harum, sint minus blanditiis sunt ipsum. Voluptates voluptatibus voluptas quisquam mollitia error odit?</p>
+                </div>
+                <div>
+                    <a target="_blank" href="aba3d/allmight.html">
+                        <img src="../../img/p.modelo/p.anime/allmight.jpg" alt="allmight">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form action="cadastro.php" method="get">
+                    <fieldset>
+                        <legend>formulario</legend>
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome">
+
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail">
+
+                        <label for="itel">Telefone</label>
+                        <input type="tel" name="tel" id="itel">
+
+                        <label for="itam">Tamanho:</label>
+                        <input type="radio" name="tam" id="itam" value="20">20
+                        <input type="radio" name="tam" id="itam" value="25">25
+                        <input type="radio" name="tam" id="itam" value="30">30
+
+                        <label for="imensagem">Mensagem:</label>
+                        <input type="text" name="mensagem" id="imensagem">
+                        
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </fieldset>    
+                </form>
+            </div>
+        </section>
     </main>
     <!--configuração java scroll-->
     <script type="text/javascript" src="../../../js/scroll.js"></script>
