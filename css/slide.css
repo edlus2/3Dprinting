@@ -17,15 +17,8 @@
     width: 100%;
     height: 80vh;
     overflow: hidden;
-  }
-  .carousel h1 {
-    /*======= configuracao h1 do slide =======*/
-    color: ;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 75vh;
-    font-size: 10vmin;
-  }
+  } 
+  /*======= configuracao h1 do slide =======*/
   .slide {
     float: left;
     height: 100%;
@@ -62,13 +55,16 @@
   }
   
   .carousel .one {
-    background-image: url(../html/img/p.inicial/trono.jpg);
+    background-position: right center;
+    background-image: url(../html/img/p.inicial/slide1.jpg);
   }
   .carousel .two {
-    background-image: url(../html/img/p.inicial/abobora.jpg);
+    background-position: right center;
+    background-image: url(../html/img/p.inicial/slide2.jpg);
   }
   .carousel .three {
-    background-image: url(../html/img/p.inicial/voando.jpg);
+    background-position: right center;
+    background-image: url(../html/img/p.inicial/slide3.jpg);
   }
   #slide-btn-1:checked ~ .one,
   #slide-btn-2:checked ~ .two,

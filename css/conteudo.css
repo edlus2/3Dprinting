@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*======= fonte utilizado no site =======*/
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*======= font-family: 'Roboto', sans-serif; =======*/
+
 /*======= Cores utilizado no site =======
 #131A40
 #273273
@@ -72,6 +77,9 @@ section{
     background-color: rgba(0, 0, 0, 0.080);
 }
 #sobrenos h2{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
     color: rgb(0, 0, 0);
     text-align: center;    
 }
@@ -81,8 +89,13 @@ section{
     justify-content: center;
 }
 .sobre{
+    padding: 0px 10px;
+    text-indent: 15px;
     padding-top: 50px;
-    width: 500px;
+    width: 450px;
+}
+.sobre p{
+    font-family: 'Roboto', sans-serif;
 }
 .nos img{
     width: 100%;
@@ -106,16 +119,19 @@ section{
     max-width: 500px;
 }
 .sitsecundario h2{
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     text-align: center;
 }
 .sitsecundario p{
+    font-family: 'Roboto', sans-serif;
     font-size: 0.9em;
     color: rgb(49, 49, 49);
     text-align: center;
     padding: 20px 0px;
 }
 .sitsecundario a{
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -160,9 +176,11 @@ section{
     text-align: center;
 }
 .inftexto h2{
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
 }
 .inftexto p{
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     padding-top: 50px;
 }
@@ -190,6 +208,8 @@ section{
     background-color: white;
 }
 #servico h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
     width: 100%;
     text-align: center;
     padding: 50px 0px;
@@ -209,8 +229,13 @@ section{
     margin: 20px;
 }
 .servicos h3{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 20px;
+}
+.servicos p {
+    text-indent: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .servicos img{
     width: 100%;
@@ -221,6 +246,7 @@ section{
     flex-wrap: wrap;
 }
 .servicosexterno a{
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-weight: bold;
     border: 1px solid black;
