@@ -25,6 +25,47 @@ body{
     background-color: #131A40;
 }
 
+/*======= PreLoad =======*/
+@keyframes  rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.boxload{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preload{
+    width: 70px;
+    height: 70px;
+    border: 5px solid #4E64A6;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    animation: rotation 1s linear infinite;
+}
+.preload:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-bottom-color: #99B7F9 ;
+}
+.carregando{
+    display: none;
+}
 /*======= Header navigation bar =======*/
 header{
     z-index: 999;

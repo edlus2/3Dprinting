@@ -21,168 +21,177 @@
     <link rel="stylesheet" href="css/footer.css">
     
 </head>
-<body>
-    <!--configuração da barra de menu html-->
-    <header>
-        <div class="nav-bar">
-            <a href="" class="logo"><img src="html/img/p.inicial/logo.png" alt="logo do site" style="height: 90px;"></a>
-            <div class="navigation">
-                <div class="nav-items">
-                    <i class="uil uil-times nav-close-btn"></i>
-                    <a href="html/modelo.html"><i class="uil uil-octagon"></i> Modelos</a>
-                    <a href="html/galeria.html"><i class="uil uil-images"></i> Galeria</a>
-                    <a href="html/contato.html"><i class="uil uil-envelope"></i> Contato </a>
-                    <a href="html/ajuda.html"><i class="uil uil-lightbulb-alt"></i> Ajuda</a>
+<body onload="loading()">
+    <!--configuração Preload-->
+    <div class="boxload">
+        <div class="preload"></div>
+    </div>
+    <div class="carregando">
+        <!--configuração da barra de menu html-->
+        <header>
+            <div class="nav-bar">
+                <a href="" class="logo"><img src="html/img/p.inicial/logo.png" alt="logo do site" style="height: 90px;"></a>
+                <div class="navigation">
+                    <div class="nav-items">
+                        <i class="uil uil-times nav-close-btn"></i>
+                        <a href="html/modelo.html"><i class="uil uil-octagon"></i> Modelos</a>
+                        <a href="html/galeria.html"><i class="uil uil-images"></i> Galeria</a>
+                        <a href="html/contato.html"><i class="uil uil-envelope"></i> Contato </a>
+                        <a href="html/ajuda.html"><i class="uil uil-lightbulb-alt"></i> Ajuda</a>
+                    </div>
+                </div>
+                <i class="uil uil-apps nav-menu-btn"></i>
+            </div>
+            <div class="scroll-indicator-container">
+                <div class="scroll-indicator-bar"></div>
+            </div>
+        </header>
+
+        <!--configuração do slide html-->
+        <main>
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
+                <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
+                <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
+                <div class="slide one parallax-effect">
+                    <h1></h1>
+                </div>
+                <div class="slide two parallax-effect">
+                    <h1></h1>
+                </div>
+                <div class="slide three parallax-effect">
+                    <h1></h1>
+                </div>
+                <div class="labels">
+                    <label for="slide-btn-1"></label>
+                    <label for="slide-btn-2"></label>
+                    <label for="slide-btn-3"></label>
                 </div>
             </div>
-            <i class="uil uil-apps nav-menu-btn"></i>
-        </div>
-        <div class="scroll-indicator-container">
-            <div class="scroll-indicator-bar"></div>
-        </div>
-    </header>
 
-    <!--configuração do slide html-->
-    <main>
-        <div class="carousel">
-            <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt();" checked />
-            <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt();" />
-            <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt();" />
-            <div class="slide one parallax-effect">
-                <h1></h1>
+            <!--configuraçao divisao -->
+            <div class="colorido"></div>
+
+            <!--Configuração do conteudo da parte 1-->  
+            <section>
+                <div id="sobrenos">
+                    <h2>SOBRE NÓS</h2>
+                    <div class="sobrenos">
+                        <div class="sobre">
+                            <p>Nossa Empresa é uma iniciativa recente, nascida do desejo de trazer soluções de impressão 3D inovadoras e de qualidade ao mercado. Desde o nosso surgimento, temos trabalhado incansavelmente para nos estabelecer como uma referência no setor, conquistando a confiança de clientes e parceiros.</p>
+                            <br>
+                            <P>O que nos diferencia é a visão de oferecer um serviço personalizado e sob medida para cada necessidade. Estamos comprometidos em entender a essência de cada projeto e superar expectativas, colocando nossa experiência e conhecimento técnico a serviço de nossos clientes.</P>
+                            <br>
+                            <P>No centro de Nossa Empresa estão as pessoas: nossa equipe dedicada e nossos valiosos clientes. Valorizamos o relacionamento próximo e o atendimento personalizado, pois entendemos que cada projeto é único e merece toda a nossa atenção e cuidado.</P>
+                        </div>
+                        <div class="nos">
+                            <img src="html/img/p.inicial/logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Configuração do conteudo da parte 2-->   
+            <div id="patmod">
+                <div class="imgfund" anime-scroll="esquerda">
+                    <img src="html/img/p.inicial/largato.png" alt="imagem de modelo 3d">
+                </div>
+                <div class="sitsecundario" anime-scroll="direita">
+                    <h2>CONHEÇA NOSSOS MODELOS FIGURE ACTION 3D</h2>
+                    <p>
+                        Impressão 3D é uma técnica de manufatura avançada, normalmente utilizado para desenvolvimento de protótipos, hardwares e artes, com alta quantidade de impressoras 3D, é possível também produção em massa personalizados.
+                    </p>
+                    <a href="html/modelo.html">VER MAIS</a>
+                </div>
             </div>
-            <div class="slide two parallax-effect">
-                <h1></h1>
+
+            <!--imagem de quebra de pagina-->
+            <img class="imgquebra" src="html/img/p.inicial/divcima.png" alt="divisao de pagina">
+
+            <!--Configuração do conteudo da parte 3--> 
+            <div id="infeqp">
+                <div class="inftexto" anime-scroll="esquerda">
+                    <h2>IMPRESSORA 3D UTILIZADAS</h2>
+                    <p>Trabalhamos com os melhores modelos de impressoras 3D do momento, todas selecionadas a partir de análises completas. Para que assim você possar ter uma melhor qualidade no seu produto.
+                    </p>
+                </div>
+                <div class="imgtan">
+                    <img src="html/img/p.inicial/impressora3d.png" alt="imagem de modelo 3d" anime-scroll="direita">
+                </div>
             </div>
-            <div class="slide three parallax-effect">
-                <h1></h1>
+
+            <!--imagem de quebra de pagina-->
+            <img class="imgquebra" src="html/img/p.inicial/divibaixo.png" alt="divisao de pagina">
+
+            <!--Configuração do conteudo da parte 4--> 
+            <div id="servico" >
+                <h2>SERVICO DE QUALIDADE</h2>
+                <div class="servico">
+                    <div class="servicos" anime-scroll="esquerda1">
+                        <img src="html/img/p.inicial/pincel3d.png" alt="">
+                        <h3>PINTURA</h3>
+                        <p>Utilizamos as melhores tintas disponíveis no mercado, para que o produto venha ser entregue na melhor condição possível. </p>
+                    </div>
+                    <div class="servicos" anime-scroll="esquerda2">
+                        <img src="html/img/p.inicial/modelo3d.png" alt="">
+                        <h3>MODELO</h3>
+                        <p>Escolhemos nossos modelos a dedo, para que você Encontre o modela perfeito, realista ou estilizado. A nossa equipa está sempre disponível.</p>
+                    </div>
+                    <div class="servicos" anime-scroll="esquerda3">
+                        <img src="html/img/p.inicial/filamento3d.png" alt="">
+                        <h3>MATERIAL</h3>
+                        <p>Temos o filamento mais utilizado atualmente, com ele conseguimos: excelente qualidade visual, baixa contração entre outros.</p>
+                    </div>
+                </div>
+                <div class="servicosexterno">
+                    <a href="html/modelo.html">MODELOS DE ACTION</a>
+                    <a href="html/galeria.html">GALERIA DE FOTOS</a>
+                </div>
             </div>
-            <div class="labels">
-                <label for="slide-btn-1"></label>
-                <label for="slide-btn-2"></label>
-                <label for="slide-btn-3"></label>
-            </div>
-        </div>
+        </main>
 
         <!--configuraçao divisao -->
         <div class="colorido"></div>
 
-        <!--Configuração do conteudo da parte 1-->  
-        <section>
-            <div id="sobrenos">
-                <h2>SOBRE NÓS</h2>
-                <div class="sobrenos">
-                    <div class="sobre">
-                        <p>Nossa Empresa é uma iniciativa recente, nascida do desejo de trazer soluções de impressão 3D inovadoras e de qualidade ao mercado. Desde o nosso surgimento, temos trabalhado incansavelmente para nos estabelecer como uma referência no setor, conquistando a confiança de clientes e parceiros.</p>
-                        <br>
-                        <P>O que nos diferencia é a visão de oferecer um serviço personalizado e sob medida para cada necessidade. Estamos comprometidos em entender a essência de cada projeto e superar expectativas, colocando nossa experiência e conhecimento técnico a serviço de nossos clientes.</P>
-                        <br>
-                        <P>No centro de Nossa Empresa estão as pessoas: nossa equipe dedicada e nossos valiosos clientes. Valorizamos o relacionamento próximo e o atendimento personalizado, pois entendemos que cada projeto é único e merece toda a nossa atenção e cuidado.</P>
-                    </div>
-                    <div class="nos">
-                        <img src="html/img/p.inicial/logo.png" alt="">
-                    </div>
+        <!--configuraçao footer -->
+        <footer>
+            <div id="footer">
+                <div class="footerr">
+                    <img src="html/img/p.inicial/logo.png" alt="">
+                </div>
+                <div class="footer">
+                    <p>ATENDIMENTO O CLIENTE</p>
+                    <p><span>SAC - Horário de Atendimento:</span></p>
+                    <p>Seg. à Sex. <span>9:00h</span> às <span>18:00h</span></p>
+                    <p><span>Whatsapp:</span> 27 992489236</p>
+                    <p>Atendimento via email:</p>
+                    <p><span>E-mail:</span> 3d.impressoesltda@gmail.com </p>
+                </div>
+                <div class="footer central">
+                    <p>Siga-nos</p>
+                    <a target="_blank" href="https://instagram.com/3d.printingltda?igshid=ZDdkNTZiNTM="><i class="uil uil-instagram-alt"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100092244554681&mibextid=ZbWKwL"><i class="uil uil-facebook"></i></a>
+                    <a target="_blank" href="https://github.com/edlus2"><i class="uil uil-github-alt"></i></a>
+                    <br><br>
+                    <p>&copy; 2023 3D Printing. Todos os direitos reservados.</p>
+                    <p>CNPJ: 29.850.521/0001-90</p>
+                    <p>R IGUATEMI, 712  - VILA NOVA DE COLARES/ES</p>
                 </div>
             </div>
-        </section>
+        </footer>
 
-        <!--Configuração do conteudo da parte 2-->   
-        <div id="patmod">
-            <div class="imgfund" anime-scroll="esquerda">
-                <img src="html/img/p.inicial/largato.png" alt="imagem de modelo 3d">
-            </div>
-            <div class="sitsecundario" anime-scroll="direita">
-                <h2>CONHEÇA NOSSOS MODELOS FIGURE ACTION 3D</h2>
-                <p>
-                    Impressão 3D é uma técnica de manufatura avançada, normalmente utilizado para desenvolvimento de protótipos, hardwares e artes, com alta quantidade de impressoras 3D, é possível também produção em massa personalizados.
-                </p>
-                <a href="html/modelo.html">VER MAIS</a>
-            </div>
-        </div>
+        <!--configuração java no slide-->
+        <script type="text/javascript" src="js/slide.js"></script>
 
-        <!--imagem de quebra de pagina-->
-        <img class="imgquebra" src="html/img/p.inicial/divcima.png" alt="divisao de pagina">
+        <!--configuração java scroll-->
+        <script type="text/javascript" src="js/scroll.js"></script>
 
-        <!--Configuração do conteudo da parte 3--> 
-        <div id="infeqp">
-            <div class="inftexto" anime-scroll="esquerda">
-                <h2>IMPRESSORA 3D UTILIZADAS</h2>
-                <p>Trabalhamos com os melhores modelos de impressoras 3D do momento, todas selecionadas a partir de análises completas. Para que assim você possar ter uma melhor qualidade no seu produto.
-                </p>
-            </div>
-            <div class="imgtan">
-                <img src="html/img/p.inicial/impressora3d.png" alt="imagem de modelo 3d" anime-scroll="direita">
-            </div>
-        </div>
+        <!--configuração java da barra menu-->
+        <script src="js/menu.js"></script>
 
-        <!--imagem de quebra de pagina-->
-        <img class="imgquebra" src="html/img/p.inicial/divibaixo.png" alt="divisao de pagina">
+        <!--configuração java preload-->
+        <script src="js/preload.js"></script>
 
-        <!--Configuração do conteudo da parte 4--> 
-        <div id="servico" >
-            <h2>SERVICO DE QUALIDADE</h2>
-            <div class="servico">
-                <div class="servicos" anime-scroll="esquerda1">
-                    <img src="html/img/p.inicial/pincel3d.png" alt="">
-                    <h3>PINTURA</h3>
-                    <p>Utilizamos as melhores tintas disponíveis no mercado, para que o produto venha ser entregue na melhor condição possível. </p>
-                </div>
-                <div class="servicos" anime-scroll="esquerda2">
-                    <img src="html/img/p.inicial/modelo3d.png" alt="">
-                    <h3>MODELO</h3>
-                    <p>Escolhemos nossos modelos a dedo, para que você Encontre o modela perfeito, realista ou estilizado. A nossa equipa está sempre disponível.</p>
-                </div>
-                <div class="servicos" anime-scroll="esquerda3">
-                    <img src="html/img/p.inicial/filamento3d.png" alt="">
-                    <h3>MATERIAL</h3>
-                    <p>Temos o filamento mais utilizado atualmente, com ele conseguimos: excelente qualidade visual, baixa contração entre outros.</p>
-                </div>
-            </div>
-            <div class="servicosexterno">
-                <a href="html/modelo.html">MODELOS DE ACTION</a>
-                <a href="html/galeria.html">GALERIA DE FOTOS</a>
-            </div>
-        </div>
-    </main>
-
-    <!--configuraçao divisao -->
-    <div class="colorido"></div>
-
-    <!--configuraçao footer -->
-    <footer>
-        <div id="footer">
-            <div class="footerr">
-                <img src="html/img/p.inicial/logo.png" alt="">
-            </div>
-            <div class="footer">
-                <p>ATENDIMENTO O CLIENTE</p>
-                <p><span>SAC - Horário de Atendimento:</span></p>
-                <p>Seg. à Sex. <span>9:00h</span> às <span>18:00h</span></p>
-                <p><span>Whatsapp:</span> 27 992489236</p>
-                <p>Atendimento via email:</p>
-                <p><span>E-mail:</span> 3d.impressoesltda@gmail.com </p>
-            </div>
-            <div class="footer central">
-                <p>Siga-nos</p>
-                <a target="_blank" href="https://instagram.com/3d.printingltda?igshid=ZDdkNTZiNTM="><i class="uil uil-instagram-alt"></i></a>
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100092244554681&mibextid=ZbWKwL"><i class="uil uil-facebook"></i></a>
-                <a target="_blank" href="https://github.com/edlus2"><i class="uil uil-github-alt"></i></a>
-                <br><br>
-                <p>&copy; 2023 3D Printing. Todos os direitos reservados.</p>
-                <p>CNPJ: 29.850.521/0001-90</p>
-                <p>R IGUATEMI, 712  - VILA NOVA DE COLARES/ES</p>
-            </div>
-        </div>
-    </footer>
-
-    <!--configuração java no slide-->
-    <script type="text/javascript" src="js/slide.js"></script>
-
-    <!--configuração java scroll-->
-    <script type="text/javascript" src="js/scroll.js"></script>
-
-    <!--configuração java da barra menu-->
-    <script src="js/menu.js"></script>
-
+    </div>
 </body>
 </html>
