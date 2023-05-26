@@ -19,11 +19,14 @@
 
 </head>
 <body onload="loading()">
+
     <!--configuração Preload-->
     <div class="boxload">
         <div class="preload"></div>
     </div>
     <div class="carregando">
+
+        <!--configuração da barra de menu html-->
         <header>
             <div class="nav-bar">
                 <a href="" class="logo"><img src="img/p.inicial/logo.png" alt="logo do site" style="height: 90px;"></a>
@@ -155,6 +158,7 @@
 
                 </div>
             </div>
+            <img src="obrigado.html" alt="">
 
             <!--configuraçao de email -->
 
@@ -163,22 +167,30 @@
                 <p>Mande sua pergunta!</p> 
 
                 <div class="formulario">
-                    <form action="cadatro.php">
-                        <div class="form">
-                            <label for="nome">None</label>
-                            <input type="text" class="text" id="nome">
+                    <form action="https://formsubmit.co/3d.impressoesltda@gmail.com" method="POST">
+                        <div class="oculto">
+                            <input type="text" class="text" name="Ajuda">
                         </div>
                         <div class="form">
-                            <label for="email">E-mail</label>
-                            <input type="email" class="text" id="email">
+                            <label for="Nome">Nome</label>
+                            <input type="text" name="Nome" class="text" id="Nome">
                         </div>
                         <div class="form">
-                            <label for="mensagem">Mensagem <br></label>
-                            <textarea class="text" id="mensagem" cols="30" rows="10"></textarea>
+                            <label for="">E-mail</label>
+                            <input type="email" name="E-mail" class="text" id="E-mail">
                         </div>
-                        <div id="botao">
-                            <input type="submit" class="botao" value="ENVIAR">
-                            <input type="reset" class="botao" value="LIMPAR">
+                        <div class="form">
+                            <label for="">Mensagem<br></label>
+                            <textarea class="text" name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="hidden" name="_next" value="">
+                        </div>
+                        <div>
+                            <input type="hidden" name="_captcha" value="false">
+                        </div>
+                        <div class="botao">
+                            <input type="submit" value="ENVIAR">
                         </div>
                     </form>
                 </div>

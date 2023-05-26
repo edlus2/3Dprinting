@@ -72,6 +72,7 @@ h2 .email{
     padding: 10px;
 }
 .botao input{
+    border: 1px solid #131A40;
     background-color: white;
     color: #131A40;
     font-weight: bold;
@@ -84,6 +85,9 @@ h2 .email{
 .botao input:hover{
     background-color: #131A40;
     color: white;
+}
+.oculto{
+    display: none;
 }
 @media screen and (max-width: 800px) {
     .contato{

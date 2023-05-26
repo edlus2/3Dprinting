@@ -98,6 +98,7 @@ picture img{
 
 /*======= configuraçao do formulario =======*/
 #formulario{
+    margin-bottom: 50px;
     width: 100%;
 }
 #formulario h2{
@@ -117,55 +118,41 @@ picture img{
     text-transform: uppercase;
 }
 .formulario{
-    border-radius: 10px;
     background-color: white;
     box-shadow: 3px 3px 3px #829FD9;
-    width:800px;
-    margin: auto;
+    border-radius: 10px;
+    padding: 20px 0;
     display: block;
-    border: 1px solid #4E64A6;
-    margin-bottom: 30px;
-}
-.form{
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-.form label{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: #131A40;
-    padding: 30px 0px 0px 30px;
+    margin: auto;
+    width: 750px;
+    border:1px solid #99B7F9 ;
 }
 .text{
     border-radius: 10px;
     border: 1px solid #4E64A6;
     width: 100%;
-    padding: 10px;
-    margin: 0px 20px; 
+    padding: 10px; 
 }
-#botao{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.botao{
-    margin: 20px;
+.form{
     padding: 10px;
+}
+.botao input{
+    border: 1px solid #131A40;
     background-color: white;
     color: #131A40;
-    border: 1px solid #131A40;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    margin: auto;
 }
-.botao:hover{
-    cursor: pointer;
-    background-color: #273273;
+.botao input:hover{
+    background-color: #131A40;
     color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 10px;
+}
+.oculto{
+    display: none;
 }
 @media screen and (max-width: 850px) {
     .formulario{

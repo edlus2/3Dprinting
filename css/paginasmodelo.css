@@ -228,6 +228,9 @@ section{
     background-color: #131A40;
     color: white;
 }
+.oculto{
+    display: none;
+}
 @media screen and (max-width: 800px) {
     .contato{
         width: 500px;
