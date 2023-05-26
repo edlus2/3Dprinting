@@ -63,15 +63,15 @@
                     </div>
                     <div class="form">
                         <label for="Nome">Nome</label>
-                        <input type="text" name="Nome" class="text" id="Nome">
+                        <input type="text" name="Nome" class="text" id="Nome" placeholder="Nome" required autocomplete="name">
                     </div>
                     <div class="form">
                         <label for="Email">E-mail</label>
-                        <input type="email" name="E-mail" class="text" id="Email">
+                        <input type="email" name="E-mail" class="text" id="Email" placeholder="E-mail" required autocomplete="email">
                     </div>
                     <div class="form">
                         <label for="itel">Telefone</label>
-                        <input type="tel" name="Telefone" class="text" id="itel">
+                        <input type="tel" name="Telefone" class="text" id="itel" placeholder="(27) 99999-9999" minlength="8" required autocomplete="tel" >
                     </div>
                     <div class="form">
                         <label for="itam1 itam2 itam3 itam4">Tamanho:</label>
@@ -86,7 +86,13 @@
                     </div>
                     <div class="form">
                         <label for="Mensagem">Mensagem<br></label>
-                        <textarea class="text" name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+                        <textarea class="text" name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Escreva Sua Mensagem ..." ></textarea>
+                    </div>
+                    <div>
+                        <input type="hidden" name="_next" value="https://edlus2.github.io/3Dprinting/html/obrigado.html">
+                    </div>
+                    <div>
+                        <input type="hidden" name="_captcha" value="false">
                     </div>
                     <div class="botao">
                         <input type="submit" value="Enviar">
