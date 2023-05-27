@@ -55,42 +55,52 @@
                     </a>
                 </div>
             </div>
+
             <div class="formulario">
                 <h2>formulario</h2>
-                <form action="cadastro.php" method="get">
-                    <div class="form">
-                        <label for="inome">Personagem</label>
-                        <input type="text" class="text" id="inome" name="teste" value="Dr House" disabled="">
+                <form action="https://formsubmit.co/3d.impressoesltda@gmail.com" method="POST">
+                    <div class="oculto">
+                        <input type="text" class="text" id="inome" name="Personagem Game" value="Dr House">
                     </div>
                     <div class="form">
                         <label for="Nome">Nome</label>
-                        <input type="text" class="text" id="Nome">
+                        <input type="text" name="Nome" class="text" id="Nome" placeholder="Nome" required autocomplete="name">
                     </div>
                     <div class="form">
                         <label for="Email">E-mail</label>
-                        <input type="email" class="text" id="Email">
+                        <input type="email" name="E-mail" class="text" id="Email" placeholder="E-mail" required autocomplete="email">
                     </div>
                     <div class="form">
                         <label for="itel">Telefone</label>
-                        <input type="tel" class="text" id="itel">
+                        <input type="tel" name="Telefone" class="text" id="itel" placeholder="(27) 99999-9999" minlength="8" maxlength="12" required autocomplete="tel">
                     </div>
                     <div class="form">
-                        <label for="itam">Tamanho:</label>
-                        <input type="radio" name="tam" id="itam" value="20">20
-                        <input type="radio" name="tam" id="itam" value="25">25
-                        <input type="radio" name="tam" id="itam" value="30">30
-                        <input type="radio" name="tam" id="itam" value="40">40
+                        <label for="itam1 itam2 itam3 itam4">Tamanho Do Personagem : </label>
+                        <input type="radio" name="Tamanho" id="itam1" value="20">
+                        <label for="itam1">20CM📏</label>
+                        <input type="radio" name="Tamanho" id="itam2" value="25">
+                        <label for="itam2"> 25CM📏</label>
+                        <input type="radio" name="Tamanho" id="itam3" value="30">
+                        <label for="itam3"> 30CM📏</label>
+                        <input type="radio" name="Tamanho" id="itam4" value="40">
+                        <label for="itam4"> 40CM📏</label>
                     </div>
                     <div class="form">
                         <label for="Mensagem">Mensagem<br></label>
-                        <textarea class="text" id="Mensagem" cols="30" rows="10"></textarea>
+                        <textarea class="text" name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Escreva Sua Mensagem ..." ></textarea>
+                    </div>
+                    <div>
+                        <input type="hidden" name="_next" value="https://edlus2.github.io/3Dprinting/html/obrigado.html">
+                    </div>
+                    <div>
+                        <input type="hidden" name="_captcha" value="false">
                     </div>
                     <div class="botao">
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Limpar">
                     </div>
                 </form>
-            </div> 
+            </div>
         </section>
     </main>
     <!--configuração java scroll-->
