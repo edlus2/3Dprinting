@@ -1,6 +1,6 @@
 <h1 align="center">
     <img width="200px" src="html/img/p.inicial/logo.png" alt="">
-<p> 3D Printing </p>
+    <p>3D Printing</p>
 </h1>
 <h1 align="center">
     <img src="html/img/p.inicial/teladevariosaparelho.jpg" >
